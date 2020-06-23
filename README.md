@@ -42,3 +42,5 @@ haproxy.sh
 - https://shadowsocks.be/10.html
 
 Copyright (C) 2014-2019 Teddysun
+
+https://github.com/teddysun/shadowsocks_install
