@@ -334,7 +334,8 @@ download_files(){
     fi
     # Download ShadowsocksR init script
     if check_sys packageManager yum; then
-        if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR -O /etc/init.d/shadowsocks; then
+        # if ! wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR -O /etc/init.d/shadowsocks; then
+        if ! wget --no-check-certificate https://github.com/wddxshy/ss/edit/master/shadowsocksR -O /etc/init.d/shadowsocks; then
             echo -e "[${red}Error${plain}] Failed to download ShadowsocksR chkconfig file!"
             exit 1
         fi
